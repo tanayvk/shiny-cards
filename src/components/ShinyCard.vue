@@ -2,9 +2,11 @@
   <div
     ref="target"
     :style="cssVars"
-    :class="['p-[2px] shine bg-neutral-950', props.class || '']"
+    :class="['rounded-[15px] p-[2px] shine', props.class || '']"
   >
-    <div class="w-full h-full bg-neutral-950/80"></div>
+    <div
+      class="rounded-[13px] w-full h-full bg-gradient-to-b from-neutral-800/50 to-neutral-950/50 bg-neutral-950/80"
+    ></div>
   </div>
 </template>
 

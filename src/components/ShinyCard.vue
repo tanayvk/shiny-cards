@@ -2,8 +2,10 @@
   <div
     ref="target"
     :style="cssVars"
-    :class="['shine bg-neutral-950', props.class || '']"
-  ></div>
+    :class="['p-[2px] shine bg-neutral-950', props.class || '']"
+  >
+    <div class="w-full h-full bg-neutral-950/80"></div>
+  </div>
 </template>
 
 <script setup>
